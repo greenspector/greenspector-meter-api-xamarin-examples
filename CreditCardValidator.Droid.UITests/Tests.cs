@@ -15,7 +15,7 @@ namespace CreditCardValidator.Droid.UITests
 		{
 			app = ConfigureApp.Android.InstalledApp("com.xamarin.example.creditcardvalidator").StartApp();
             //Greenspector Measure Set Up
-            app.Invoke("SetUpMeasureBackdoor", "kOrscsBn3urw9096fS1z6FMrLV66ijgH");
+            app.Invoke("SetUpMeasureBackdoor", "[Put your Greenspector TOKEN]");
         }
 
         [Test]
@@ -36,4 +36,3 @@ namespace CreditCardValidator.Droid.UITests
 
     }
 }
-
